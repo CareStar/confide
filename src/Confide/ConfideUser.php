@@ -15,10 +15,12 @@ trait ConfideUser
 {
     /**
      * A MessageBag object that store any error regarding the confide User.
+     * We're using Jeffrey Way's model validator, which also defines this,
+     * so it's been commented out.
      *
      * @var \Illuminate\Support\MessageBag
      */
-    public $errors;
+    // public $errors;
 
     /**
      * Confirm the user (usually means that the user)
