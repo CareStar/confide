@@ -31,8 +31,8 @@ return array(
     'alerts' => array(
         'account_created' => 'Your account has been successfully created.',
         'instructions_sent'       => 'Please check your email for the instructions on how to confirm your account.',
-        'too_many_attempts' => 'Too many attempts. Try again in few minutes.',
-        'wrong_credentials' => 'Incorrect username, email or password.',
+        'too_many_attempts' => 'Too many attempts. Please try again in a few minutes.',
+        'wrong_credentials' => 'Incorrect email or password.',
         'not_confirmed' => 'Your account may not be confirmed. Check your email for the confirmation link',
         'confirmation' => 'Your account has been confirmed! You may now login.',
         'password_confirmation' => 'The passwords did not match.', 
